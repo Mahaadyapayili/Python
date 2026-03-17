@@ -1,0 +1,11 @@
+tuple1=("tuple",False,4.5,8)
+print(tuple1)
+tuple2=(5,8,6,7,3,8)
+print(tuple2)
+tuple3=(tuple2)+(9,)
+print(tuple3)
+tuple4=(5,9,67,3,6,8,2,1,)
+print(tuple4.count(9))
+tuple5=(5,3,8,5,7,2,4,2,4,5,2,9)
+slice=tuple5[3:8]
+print(slice)
